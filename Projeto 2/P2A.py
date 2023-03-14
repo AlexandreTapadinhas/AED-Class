@@ -21,11 +21,10 @@ if __name__ == "__main__":
 
     for i in range(n):
         for j in range(i+1,n):
-            if i != j:
-                sum = array[i] + array[j]
+            sum = array[i] + array[j]
 
-                if sum > max_sum:
-                    max_sum = sum
+            if sum > max_sum:
+                max_sum = sum
 
     end = time.time()
     exec_time = end - init
