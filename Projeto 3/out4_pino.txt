@@ -1,0 +1,22 @@
+BD_ATUALIZADA
+pneus nao homologados 3 Antonio Jose
+excesso velocidade 4 Joao Sousa
+buzina avariada 2 Antonio Jose
+FIM
+25FG98 excesso velocidade 4
+FIM
+1234ZZ buzina avariada 2 Antonio Jose
+1578VC traco continuo 5 Rui Dias
+25FG98 pneus nao homologados 3 Antonio Jose
+25FG98 excesso velocidade 4 Joao Sousa
+25FG98 buzina avariada 2 Antonio Jose
+BA78AA traco continuo 5 Ana Antunes
+BA78AA buzina avariada 2 Antonio Jose
+FIM
+REGISTOS NAO ENCONTRADOS
+FIM
+1234ZZ buzina avariada 2
+25FG98 pneus nao homologados 3
+25FG98 buzina avariada 2
+BA78AA buzina avariada 2
+FIM

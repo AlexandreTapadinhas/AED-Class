@@ -1,0 +1,3 @@
+A -> Bubble Sort
+B -> Shell Sort
+C -> Merge Sort

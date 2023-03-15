@@ -1,0 +1,12 @@
+DIM_BD 5
+25FG98 pneus nao homologados 3 Antonio Jose
+1578VC traco continuo 5 Rui Dias
+25FG98 excesso velocidade 4 Joao Sousa
+25FG98 buzina avariada 2 Antonio Jose
+BA78AA traco continuo 5 Ana Antunes
+CONSULTA_MATRICULA 25FG98
+CONSULTA_CONDUTOR Joao Sousa
+CONSULTA_BD
+CONSULTA_MATRICULA 25AA98
+CONSULTA_CONDUTOR Joao Pedro
+TCHAU
