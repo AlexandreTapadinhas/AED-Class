@@ -17,6 +17,18 @@ list_mats = []
 end = False
 
 
+def bubble_sort(list):
+    switched = False
+    for i in range(len(list)):
+        for j in range(len(list) - 1):
+            if list[j] > list[j + 1]:
+                list[j], list[j + 1] = list[j + 1], list[j]
+                switched = True
+        if switched == False:
+            break
+        switched = False
+
+
 if __name__ == '__main__':
     while (not end): 
         cmd = input().split(maxsplit=1)
@@ -31,11 +43,24 @@ if __name__ == '__main__':
                     db[cmd[0]] = []
                 db[cmd[0]].append([content[0], content[1] + ' ' + content[2]])
             print('BD_ATUALIZADA')
+            #print(db)
+
             # ordenamento
             list_mats = list(db.keys())
             #print(list_mats)
-            list_mats.sort()
-            #print(db)
+            # default python sort
+            #list_mats.sort()
+
+            # bubble sort
+            bubble_sort(list_mats)
+
+            # shell sort
+            #shell_sort(list_mats)
+
+            # merge sort
+            #merge_sort(list_mats)
+
+            #print(list_mats)
 
 
         elif cmd[0] == 'CONSULTA_MATRICULA':
