@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 
 # Read the data
 df = pd.read_csv('times_final.csv')
+print(df)
 
 plt.plot(df['P'], df['A'], '-o')
 plt.xlabel('Tamanho do array')
